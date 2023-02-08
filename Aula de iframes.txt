@@ -24,3 +24,11 @@ A borda padrão do iframe só funciona no 0 (sem borda) ou no 1
 Agora pra ter mais opçoes de estilização na borda de um iframeé possivel utilizar o comando border/border-radius no proprio CSS.
 basta integrar o CSS no iframe.
 
+
+********* BONUS ****
+
+para centralizar objetos que são (in-line) basta usar o
+    
+    display: blcok;
+
+dai da pra centralizar coisas especificar ou por elas de lados especificos.    
