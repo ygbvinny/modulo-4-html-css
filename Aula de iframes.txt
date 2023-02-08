@@ -32,3 +32,14 @@ para centralizar objetos que são (in-line) basta usar o
     display: blcok;
 
 dai da pra centralizar coisas especificar ou por elas de lados especificos.    
+
+
+Dá pra abrir paginas no iframe utilizando a tag:
+
+    target="nome criado"
+
+sendo assim, da pra carregar o conteudo do site no iframe ao invés de utilizar o:
+
+    target="_blank"
+
+pra abrir em outra pagina, obviamente são casos e casos.
