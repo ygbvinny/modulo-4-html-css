@@ -1,0 +1,26 @@
+----- iframes -------
+
+utilizando a tag <iframe> vc consegue criar um quadrado no site e nesse quadrado vc pode importar um link e ele dará a pré-vizualização do site.
+
+Por padrão, o box do iframe vem **300x150** pixels, sendo assim é necessario mexer na altura e na largura ( width / height ) caso 
+queira deixar maior o box.
+
+se for definido altura e largura diretamente no CSS, as outras configuraçoes feitas no iframe referente a altura e largura, não seram consideradas, a configuraçoes no CSS é priorizada.
+
+barras de rolagem são criadas automaticamente no iframe quando se tem conteudo suficiente no site pra rolar, mas entretanto
+tem como adicionar a barra de rolagem manualmente utilizando o comando
+
+   scolling="auto/yes/no" 
+  
+alguns navegadores nao reconhece
+mas existe o comando pra isso.
+
+
+A borda padrão do iframe só funciona no 0 (sem borda) ou no 1
+(com borda fina) ou seja, só da pra usar nesse comando 0 ou 1.
+
+    frameborder"0"
+
+Agora pra ter mais opçoes de estilização na borda de um iframeé possivel utilizar o comando border/border-radius no proprio CSS.
+basta integrar o CSS no iframe.
+
