@@ -25,11 +25,11 @@ Agora pra ter mais opçoes de estilização na borda de um iframeé possivel uti
 basta integrar o CSS no iframe.
 
 
-********* BONUS ****
+********* BONUS ******
 
 para centralizar objetos que são (in-line) basta usar o
     
-    display: blcok;
+    display: block;
 
 dai da pra centralizar coisas especificar ou por elas de lados especificos.    
 
@@ -43,3 +43,22 @@ sendo assim, da pra carregar o conteudo do site no iframe ao invés de utilizar 
     target="_blank"
 
 pra abrir em outra pagina, obviamente são casos e casos.
+
+
+
+
+***** SEGURANÇA DE IFRAMES *****
+
+Ao inserir o seguinte comando abaixo em uma tag de iframe, eu determino que não vai coletar nenhuma informação do usuario:
+
+	sandbox="sandbox" referrerpolicy="no-referrer" ( não vai coletar nenhuma informação do usúario )
+	
+	sandbox="sandbox" ( Liga a segurança no maximo)
+	
+	sandbox="allow-same-origin" ( Permitir contéudo da mesma origem )
+	
+	sandbox="allow-forms" ( Permitir formulário )
+	
+	sandbox+"allow-scripts" ( Permito o uso de script )
+	
+Isso se aplica apenas no iframe que foi usado os comandos acima.	
