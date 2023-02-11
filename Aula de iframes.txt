@@ -21,8 +21,7 @@ A borda padrão do iframe só funciona no 0 (sem borda) ou no 1
 
     frameborder"0"
 
-Agora pra ter mais opçoes de estilização na borda de um iframeé possivel utilizar o comando border/border-radius no proprio CSS.
-basta integrar o CSS no iframe.
+Agora pra ter mais opçoes de estilização na borda de um iframe é possivel utilizar o comando border/border-radius no proprio CSS, basta integrar o CSS no iframe.
 
 
 ********* BONUS ******
